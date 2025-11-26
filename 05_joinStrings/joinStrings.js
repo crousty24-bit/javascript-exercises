@@ -18,7 +18,7 @@ const birthYear = 1947;
 // use backticks to embed then use ${}
 
 const fullName = firstName + " " + lastName; //syntax to add a "space" is " "
-const age = thisYear-birthYear;
+const age = thisYear - birthYear;
 
 const greeting = `Hello! My name is ${fullName} and I am ${age} years old.`;
 
