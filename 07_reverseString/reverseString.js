@@ -1,8 +1,11 @@
 const reverseString = (string) => {
-    let str = string.split(''); 
+    return string.split('').reverse().join('');
+    //final clean version above
+    
+    /*let str = string.split(''); 
     let arr = str.reverse();
     let reversed = arr.join('');
-    return reversed;
+    return reversed;*/
 } 
 //console.log(reverseString('hello there'));
 
