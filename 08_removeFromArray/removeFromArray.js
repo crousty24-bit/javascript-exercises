@@ -5,7 +5,7 @@ const removeFromArray = (arr, num) => {
     }
     return arr;
 }
-console.log(removeFromArray([1, 2, 3, 4], 'hello'))
+console.log(removeFromArray([1, 2, 3, 4], 4))
 
 // Do not edit below this line
 module.exports = removeFromArray;
