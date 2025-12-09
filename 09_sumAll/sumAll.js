@@ -14,7 +14,9 @@ const sumAll = (num1, num2) => {
         } 
     } return sum;
 }
-console.log(sumAll("caca", 4))
+console.log(sumAll(2.5, 4))
+// missing condition if is non-integer parameter 'error'
+// come back to it later
 
 // Do not edit below this line
 module.exports = sumAll;
