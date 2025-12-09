@@ -9,11 +9,8 @@ function repeatString(string, num) {
     return repeatedString;
 }
 
-let newString = repeatString("hey", 3);
-console.log(newString);
-
-
-//const repeatString
+repeatString("hey", 10);
+console.log(repeatString("hey", 10));
 
 // Do not edit below this line
 module.exports = repeatString;
