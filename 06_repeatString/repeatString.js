@@ -4,11 +4,13 @@ function repeatString(string, num) {
         return 'ERROR'
     }
     for (let i = 0; i < num ; i++) {
-        
-        
-};
-
+        repeatedString += string;
+    }
+    return repeatedString;
 }
+
+let newString = repeatString("hey", 3);
+console.log(newString);
 
 
 //const repeatString
