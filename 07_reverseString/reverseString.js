@@ -3,10 +3,8 @@ const reverseString = (string) => {
     let arr = str.reverse();
     let reversed = arr.join('');
     return reversed;
- 
 } 
-  
-console.log(reverseString('hello there'));
+//console.log(reverseString('hello there'));
 
 
 // Do not edit below this line
