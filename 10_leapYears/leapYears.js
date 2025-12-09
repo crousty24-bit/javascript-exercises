@@ -10,6 +10,7 @@ const leapYears = (year) => {
     }
 }
 console.log(leapYears(1984))
+// will do another version with && operator
 
 // Do not edit below this line
 //module.exports = leapYears;
