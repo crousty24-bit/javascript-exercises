@@ -18,8 +18,10 @@ const sumAll = (num1, num2) => {
     } return sum;
 }
 console.log(sumAll(1, 10))
-// missing condition if is non-integer parameter 'error'
-// come back to it later
+// adding Number.isInteger if True, execute sum
+// last condition 'else' return 'error' whenever its not an integer
+// now code works as intended and throw an error according to
+// a missing condition
 
 // Do not edit below this line
 module.exports = sumAll;
