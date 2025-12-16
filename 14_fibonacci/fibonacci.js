@@ -2,8 +2,8 @@ const fibonacci = function(n) {
     n = Number(n);
     if (isNaN(n) || n < 0) return "OOPS"; // handles strings, else error 
 
-    const first = 0; // 0e terme
-    const second = 1; // 1st terme
+    const first = 0; // 0e term
+    const second = 1; // 1st term
     // conditions to make sure accepts any sequence : 
     // (0, 1) (1, 1) or (1, 2)
     if (n === 0) return first;
@@ -12,7 +12,7 @@ const fibonacci = function(n) {
     let a = first;
     let b = second;
     let c;
-    // loop starts at the second :
+    // loop starts at the second term :
     for (let i = 2; i <= n; i++) {
         c = a + b;
         a = b ;
