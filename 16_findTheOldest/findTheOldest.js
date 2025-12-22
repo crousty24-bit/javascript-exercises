@@ -1,25 +1,22 @@
-// next time : delete all code first before redo it !
+
+ function getAge (person) {
+  if (person.yearOfDeath)
+    return person.yearOfDeath - person.yearOfBirth;
+  else {
+    return new Date().getFullYear() - person.yearOfBirth;
+  }
+ }
 
 const findTheOldest = function (people) {
-
-  function getAge(person) {
-    if (person.yearOfDeath) {
-      return person.yearOfDeath - person.yearOfBirth;
-    } else {
-      return new Date().getFullYear() - person.yearOfBirth;
-    }
-  }
-
   return people.reduce((oldest, current) => {
-    const ageOldest = getAge(oldest);
-    const ageCurrent = getAge(current);
-
-    if (ageCurrent > ageOldest) {
-      return current;
-    } else {
-      return oldest;
+  const ageOldest = getAge(oldest)
+  const ageCurrent = getAge(current)
+  if (ageCurrent > ageOldest) {
+    return current
+      } else {
+      return oldest
     }
-  });
+  })
 };
 // will come back to this from scratch another day, refer to this : 
 // misconception about (person) parameter : when func getAge is called : 
